@@ -48,7 +48,7 @@ yarn dev
 
 ## 🚀 Deploy
 
-⇒
+⇒ https://hackatweet-front-mu.vercel.app/
 
 ## 🧑‍💻 Authors
 
