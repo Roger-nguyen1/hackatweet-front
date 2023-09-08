@@ -1,22 +1,18 @@
 # 📚 Hackatweet
 
-Hi,
-I'm Roger, I'm currently deepening my knowledge in web development. I'm specialized in React frontend development.
-I had fun coding all these projects!
-Feel free to ask me questions and don't hesitate to look at my other projects ;)
-Have fun coding!
+Salut, je suis Roger. Actuellement, je développe mes compétences en développement web, avec une spécialisation dans le développement frontend en React. J'ai pris beaucoup de plaisir à coder tous ces projets ! N'hésitez pas à me poser des questions et à jeter un œil à mes autres réalisations ;)
 
 ## ✍️ Description
 
-The objective of this project is to create a Twitter-based social network.
+L'objectif de ce projet est de créer un réseau social basé sur Twitter.
 
-For the setup, the frontend must interact with a backend webservice via fetch, while clean code principles and TDD are encouraged for some specific functionalities, such as checking entered fields.
+Pour la configuration, le frontend doit interagir avec un service backend via fetch, tout en favorisant les principes de code propre et le développement piloté par les tests (TDD) pour certaines fonctionnalités spécifiques, telles que la vérification des champs saisis.
 
-The login page allows users to create an account or sign in. Clicking the "Sign up" or "Sign in" buttons opens a modal with corresponding input fields. The application communicates with the backend, and if the information is correct, the user is redirected to the Home component. In the case of sign up, user information is saved to the database. A token is used, and passwords are hashed. Three components are used: "Login.js", "SignUp.js", and "SignIn.js".
+La page de connexion permet aux utilisateurs de créer un compte ou de se connecter. En cliquant sur les boutons "S'inscrire" ou "Se connecter", une fenêtre modale s'ouvre avec les champs d'entrée correspondants. L'application communique avec le backend, et si les informations sont correctes, l'utilisateur est redirigé vers le composant "Accueil". En cas d'inscription, les informations de l'utilisateur sont enregistrées dans la base de données. Un jeton est utilisé, et les mots de passe sont hachés. Trois composants sont utilisés : "Login.js", "SignUp.js" et "SignIn.js".
 
-The homepage is divided into three sections. The left section displays the user's information and a logout button, and the right section shows the "Trends," or hashtags used and their frequencies. In the middle section, users can add tweets and view the last tweets of all users. A tweet cannot exceed 280 characters, and liking and deleting functionalities are implemented for user-owned tweets. Four components are used: "Home.js", "LastTweets.js", "Tweet.js", and "Trends.js".
+La page d'accueil est divisée en trois sections. La section de gauche affiche les informations de l'utilisateur et un bouton de déconnexion, tandis que la section de droite présente les "Tendances", c'est-à-dire les hashtags utilisés et leur fréquence. Dans la section centrale, les utilisateurs peuvent ajouter des tweets et consulter les derniers tweets de tous les utilisateurs. Un tweet ne peut pas dépasser 280 caractères, et des fonctionnalités de "j'aime" et de suppression sont mises en œuvre pour les tweets appartenant à l'utilisateur. Quatre composants sont utilisés : "Home.js", "LastTweets.js", "Tweet.js" et "Trends.js".
 
-Finally, the hashtag page appears when the user clicks on a hashtag in the Trends section. This page has similar components to the homepage, with a search bar and a list of tweets containing the selected hashtag. The user can search for other hashtags using the search bar. If no tweet contains the searched hashtag, a message is displayed. Four components are used: "Hashtag.js", "LastTweets.js", "Tweet.js", and "Trends.js".
+Enfin, la page des hashtags apparaît lorsque l'utilisateur clique sur un hashtag dans la section "Tendances". Cette page comporte des composants similaires à la page d'accueil, avec une barre de recherche et une liste de tweets contenant le hashtag sélectionné. L'utilisateur peut rechercher d'autres hashtags à l'aide de la barre de recherche. Si aucun tweet ne contient le hashtag recherché, un message est affiché. Quatre composants sont utilisés : "Hashtag.js", "LastTweets.js", "Tweet.js" et "Trends.js".
 
 ## 🎬 Getting Started : Dependencies and Other
 
@@ -45,6 +41,7 @@ yarn dev
 - Node.JS
 - Next.JS
 - Vercel
+- …
 
 ## 🚀 Deploy
 
