@@ -16,7 +16,7 @@ La page d'accueil est divisée en trois sections. La section de gauche affiche l
 
 Enfin, la page des hashtags apparaît lorsque l'utilisateur clique sur un hashtag dans la section "Tendances". Cette page comporte des composants similaires à la page d'accueil, avec une barre de recherche et une liste de tweets contenant le hashtag sélectionné. L'utilisateur peut rechercher d'autres hashtags à l'aide de la barre de recherche. Si aucun tweet ne contient le hashtag recherché, un message est affiché. Quatre composants sont utilisés : "Hashtag.js", "LastTweets.js", "Tweet.js" et "Trends.js".
 
-## 🎬 Getting Started : Dependencies and Other
+## 🎬 Démarrage : Dépendances et Autres
 
 La plupart de mes projets ont un frontend et backend séparés, vous les trouverez sur mon github.
 
@@ -32,7 +32,7 @@ yarn dev
 
 ```
 
-## ⚛️ Tech and Stuff
+## ⚛️ Stack technique
 
 - HTML
 - CSS
@@ -45,15 +45,15 @@ yarn dev
 - Vercel
 - …
 
-## 🚀 Deploy
+## 🚀 Site web déployé
 
 ⇒ https://hackatweet-front-mu.vercel.app/
 
-## 🧑‍💻 Authors
+## 🧑‍💻 Auteur
 
 Roger NGUYEN
 
-## 🌐 Network
+## 🌐 Réseau
 
 My Portfolio : [Roger NGUYEN](https://portfolio-roger.vercel.app/)
 
